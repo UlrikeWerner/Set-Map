@@ -16,7 +16,11 @@ public class Pharmacy {
     }
 
     public void addDrug(Drug drug){
-        drugList.put(drug.getDrugName(), drug);
+        drugList.putIfAbsent(drug.getDrugName(), drug);
+    }
+
+    public void deleteDrug(String drugName){
+        drugList.remove(drugName);
     }
 
     public Drug getDrugInformation(String drugName){
