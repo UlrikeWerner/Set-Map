@@ -1,7 +1,5 @@
 # Set-Map
-Schritt 1: Baut eure Applikation aus dem List-Vortrag von ArrayList in HashMap um.
 
-### Task 2
 Schritt 1: Erstellt eine Klasse '' mit den Methoden 'getName', 'getPrice' und 'getAvailability'.
 
 Schritt 2: Lege eine Java-Klasse 'Apotheke' an, die eine Java-Map verwendet, um den Medication Namen als Schlüssel und deren Informationen als Werte zu speichern. Implementiere Methoden, um Medication zur Map hinzuzufügen, Informationen abzurufen und die Verfügbarkeit zu aktualisieren.
