@@ -10,5 +10,6 @@ public class Main {
         System.out.println(moinApotheke.getDrugInformation("Test"));
         moinApotheke.updateAvailability("Hustensaft", true);
         System.out.println(moinApotheke);
+        System.out.println(moinApotheke.countDrugs());
     }
 }

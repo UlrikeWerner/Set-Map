@@ -21,10 +21,14 @@ public class Pharmacy {
 
     public Drug getDrugInformation(String drugName){
         return drugList.get(drugName);
-    };
+    }
 
     public void updateAvailability(String drugName, boolean availability){
         drugList.get(drugName).setAvailability(availability);
+    }
+
+    public int countDrugs(){
+        return drugList.size();
     }
 
     @Override
