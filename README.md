@@ -13,3 +13,6 @@ Schritt 5: Lege eine Methode 'Medication find(String medicationName)' in der Kla
 Schritt 6: Lege eine Methode 'void delete(String medicationName)' in der Klasse `Apotheke` an. Diese Methode sollte die Medication mit diesem Namen löschen.
 
 Schritt 7: Implementiere eine Methode, um alle Medication in der Map auszugeben, einschließlich ihres Namens, Preises und der Verfügbarkeit.
+
+### Extra
+Schreibe eine Methode, die Haufigkeit von einzigartigen Werte in einem Array zählt.
